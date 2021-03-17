@@ -7,8 +7,7 @@ mid = (i + j) / 2;
 if (arr[mid] < value) {
 i = mid + 1;
 }
-else
-j = mid;
+else j = mid;
 }
 if (arr[i] == value) {
 while (arr[i] == value) {
@@ -19,6 +18,5 @@ count++;
 if (count > 0) {
 return count;
 }
-else
-return 0;
+else return 0;
 }
